@@ -1,0 +1,18 @@
+.slider{
+    width: 900px;
+}
+.viewport {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.slidewrapper{
+    position: relative;
+    width: calc(100% * 6);
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+.slide {
+    width: calc(100%/6);
+    float: left;
+}
