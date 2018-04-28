@@ -11,7 +11,8 @@ h4 {
 h1 {
     text-align: center;
     color: black;
-    font-size: 50px;
+    font-size: 80px;
+    font-family: Rosa Marena;
 }
 
 .content {
@@ -48,10 +49,6 @@ h1 {
     width: 260px;
 }
 
-.social-network {
-    display: inline;
-
-}
 
 .main-picture {
     width: 900px;
@@ -84,7 +81,7 @@ p {
 .button-about-me {
     width: 260px;
     height: 35px;
-    border: 2px solid hotpink;
+    border: 2px solid #eba5c8;
     background-color: white;
     border-radius: 7px;
 }
@@ -93,8 +90,8 @@ p {
     text-decoration: none;
     width: 260px;
     height: 35px;
-    border: 2px solid hotpink;
-    background-color: hotpink;
+    border: 2px solid #eba5c8;
+    background-color: #eba5c8;
     border-radius: 7px;
 }
 
@@ -145,4 +142,42 @@ p {
     width: 40%;
     width: 40%;
 }
+.social-network{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+.network{
+    height: 25px;
+    width: 25px;
+}
 
+
+
+
+
+
+
+
+.table-item-text:hover + .popup {
+    display: block;
+}
+.popup{
+    display: none;
+    z-index: 100;
+    position: absolute;
+    height: 100px;
+     width: 260px;
+     background-color: black;
+    opacity: 0.7;
+}
+.popup > p{
+    text-align: center;
+    opacity: 1;
+    color: white;  
+    margin-left: 3px;
+    margin-right: 3px;
+}

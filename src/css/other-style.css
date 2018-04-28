@@ -6,12 +6,16 @@
 
 h4 {
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
+    color:grey;
+    font-weight: normal;
+    margin-top: -30px;
 }
 
 h1 {
     text-align: center;
-    color: black;
+    font-family: Rosa Marena;
+   /* font-weight: normal; */
 }
 
 .content {
@@ -71,7 +75,7 @@ h1 {
 .button-about-me {
     width: 260px;
     height: 35px;
-    border: 2px solid hotpink;
+    border: 2px solid #eba5c8;
     background-color: white;
     border-radius: 7px;
 }
@@ -80,8 +84,8 @@ h1 {
     text-decoration: none;
     width: 260px;
     height: 35px;
-    border: 2px solid hotpink;
-    background-color: hotpink;
+    border: 2px solid #eba5c8;
+    background-color: #eba5c8;
     border-radius: 7px;
 }
 
@@ -115,12 +119,21 @@ h1 {
     
 }
 .main-words{
-    background-color: hotpink;
+    background-color: #eba5c8;
     width: 900px;
     height: 100px;
     margin-left: auto;
     margin-right: auto;
+    line-height: 105px;
+    
 }
 .description{
     margin: 0;
+}
+.online-journey{
+    font-size: 80px;
+}
+.main-words{
+    font-size: 50px;
+    color: white;
 }
